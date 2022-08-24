@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header{
+    position: relative;
+  text-align: center;
+  color: white;
+  height: 70vh;
+}
+header img{
+    width: 1350px;
+    height: 500px;
+    object-fit: cover;
+}
+header h1{
+    position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+header p{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+header a{
+    position: absolute;
+    top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: white;
+  background-color: #ff3e0ed7;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+}
+
+.dev1 h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    }
+.dev1 p{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+    padding: 0 350px;
+}
+.dev1 .box_tk{
+
+    padding: 30px;
+    margin: 20px 65px;
+    float: left;
+    width: 10%;
+    color: #ff3e0ed7;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.dev1 .bg_tk{
+    border: 2px solid #ff3e0ed7;
+    background-color: #f5dbd4d7;
+}
+/* .input_btn{
+    justify-content: center;
+    align-items: center;
+} */
+.dev1 input{
+    margin: 20px 0 20px 500px;
+    width: 300px;
+    height: 30px;
+    border:1px solid black;
+    border-radius:2px;
+}
+.dev1 input[type="text"]::placeholder {  
+    padding-left: 80px; 
+} 
+.dev1 a{
+  text-decoration: none;
+  color: white;
+  background-color: #ff3e0ed7;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+}
+
+.dev2 h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    }
+.dev2 h6{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+    padding: 0 350px;
+}
+.dev2 .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dev2 .cards .card1{
+    margin: 28px;
+    padding: 30px;
+    background-color: #cceef7d7;
+}
+.dev2 .cards .card2{
+    margin: 30px;
+    padding: 30px;
+    background-color: #cceef7d7;
+}
+.dev2 .cards .card3{
+    margin: 30px;
+    padding: 30px;
+    background-color: #cceef7d7;
+}
+.dev3{
+    height: 60vh;
+    padding: 40px;
+}
+.dev3 h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    }
+.dev3 p{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+    padding: 0 350px;
+}
+.dev3 input{
+    padding: 10px 20px 10px 20px;
+    width: 300px;
+    height: 30px;
+    border:1px solid black;
+    border-radius:2px;
+}
+.dev3 a{
+  text-decoration: none;
+  color: white;
+  background-color: #ff3e0ed7;
+  padding: 10px 20px 10px 20px;
+  border-radius: 2px;
+}
+.dev3 input[type="email"]::placeholder {  
+    padding-left: 10px; 
+    font-size: 15px;
+} 
+.dev3 .bg_color{
+    padding: 70px 90px ;
+    margin: 30px 300px 30px 300px;
+    background-color: rgb(233, 233, 181);
+}
+footer h1{
+    color: coral;
+    text-align: center;
+    font-size: 30px;
+}
+footer p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+footer{
+    padding: 35px;
+    height: 20vh;
+    background-color: black;
+}
